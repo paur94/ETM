@@ -1,0 +1,3 @@
+.accordion:before {
+    height: 0 !important;
+}

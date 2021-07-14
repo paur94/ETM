@@ -1,0 +1,156 @@
+.Nav {
+  background: #fff;
+  border-bottom: 1px solid rgba(110, 193, 228, 0.23);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0, 5rem calc((100vw - 1300px) / 2);
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.NavLink {
+  color: rgb(120, 144, 156);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  position: relative;
+}
+.headerLogo {
+  margin-left: 60px;
+}
+.headerLogo:hover:after {
+  content: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .Nav .headerLogo {
+    margin-left: 0;
+  }
+}
+.NavLink a {
+  text-decoration: none !important;
+  color: #78909c;
+}
+
+.NavLink:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 15px;
+  left: 0;
+  background-color: #00d353;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.NavLink:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+  top: 45%;
+  position: relative;
+}
+
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  display: none;
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 25px;
+  top: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .bm-burger-button {
+    display: block;
+  }
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #000;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+.NavMenu {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .NavMenu {
+    display: none;
+  }
+}
+
+.NavBtn {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .NavBtn {
+    display: none;
+  }
+}
+
+.FlexMenu {
+  display: flex;
+}
