@@ -1,28 +1,25 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
+import Hero from "../components/Hero/Hero"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Hero3 from "../components/Hero/Hero3"
+import Hero4 from "../components/Hero/Hero4"
+import Hero5 from "../components/Hero/Hero5"
+import Footer from "../components/Footer/Footer"
+import { GlobalStyle } from "../components/styles/GlobalStyles"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
+    <Hero />
+    <Hero4
+      titleOne="Help all your managers get more work done faster."
+      titleTwo="Make it happen with Excise Tax Manager."
+      btnText="SCHEDULE YOUR DEMO NOW"
     />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
+    <Hero3 />
+    <Hero5 />
+    <Footer />
   </Layout>
 )
 

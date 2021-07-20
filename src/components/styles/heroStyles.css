@@ -1,0 +1,36 @@
+body {
+    font-family: "Nunito Sans", Sans-serif;
+}
+* {
+    font-family: "Nunito Sans", Sans-serif;
+}
+@media only screen and (max-width: 768px) {
+    .RowSection {
+      flex-direction: column;
+    }
+    .firstCell {
+        padding: 10%;
+        text-align: center;
+    }
+    .firstSectionTitle {
+        font-size: 32px;
+    }
+    .firstSectionText {
+        font-size: 14px;
+        padding: 0 30px;
+    }
+    .Hero4Title {
+        font-size: 24px;
+        padding: 0 30px;
+    }
+    .Hero4 a {
+        font-size: 12px;
+    }
+    .Hero2Title {
+        font-size: 32px;
+    }
+    .Hero2Text {
+        font-size: 14px;
+        padding: 0 30px;
+    }
+  }

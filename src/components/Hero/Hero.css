@@ -1,0 +1,233 @@
+/* Hero 1 */
+.RowSection {
+  box-sizing: border-box;
+  color: rgb(68, 68, 68);
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  height: auto;
+  hyphens: manual;
+  line-height: 24px;
+  text-rendering: optimizelegibility;
+  text-size-adjust: 100%;
+  width: 100%;
+  padding: 60px 0 0 0;
+}
+
+.Cell {
+  box-sizing: border-box;
+  color: rgb(68, 68, 68);
+  font-size: 16px;
+  font-style: normal;
+  height: auto;
+  hyphens: manual;
+  line-height: 24px;
+  text-rendering: optimizelegibility;
+  text-size-adjust: 100%;
+  width: 100%;
+  min-height: 1px;
+  position: relative;
+}
+
+.notebook {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-top: 35px;
+}
+
+.firstSectionTitle {
+    color: #38586e;
+    font-family: "Nunito Sans", Sans-serif;
+    font-size: 68px;
+    font-weight: bold;
+    line-height: 1.1em;
+    margin-bottom: 17px;
+}
+
+.firstSectionText {
+    margin-bottom: 17px;
+}
+
+.firstCell {
+    padding: 5% 25% 6% 5%;
+}
+
+.Hero2 {
+    margin-bottom: 35px;
+    background-color: rgba(0,183,209,0.18);
+    padding: 40px 0;
+}
+
+.Hero2Title {
+    font-size: 30px;
+    font-weight: 700;
+    hyphens: manual;
+    text-align: center;
+    color: rgb(56, 88, 110);
+    margin-bottom: 15px;
+}
+
+.Hero2Text{
+    color: rgb(56, 88, 110);
+    font-size: 17px;
+    hyphens: manual;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.Hero2Video {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.cardImg {
+    width: 33%;
+}
+.cardTexts {
+    width: 20%;
+    padding-top: 60px;
+    line-height: 1.6em;
+    color: rgb(56, 88, 110);
+}
+.cardTitle {
+    color: #38586e;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.cardLink {
+    color: #1bb0ce;
+    margin-top: 20px;
+}
+.cardText {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.imgRight {
+    margin-left: 30px;
+}
+.imgLeft {
+    margin-right: 30px;
+}
+
+.Hero4 {
+    background: linear-gradient(to right, rgb(64, 205, 164) 0%, rgb(14, 188, 199) 100%);
+    padding: 60px 0;
+    margin-bottom: 35px;
+}
+.Hero4Title {
+    font-size: 30px;
+    font-weight: 700;
+    hyphens: manual;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+
+.Hero5 {
+    padding: 60px 0;
+}
+.Hero5 h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #38586e;
+}
+.teamCards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 230px;
+}
+.teamTitle {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: rgb(56, 88, 110);
+}
+.teamText {
+    padding: 0 30px;
+    line-height: 1.4em;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+    .RowSection {
+      flex-direction: column;
+    }
+    .firstCell {
+        padding: 10%;
+        text-align: center;
+    }
+    .firstSectionTitle {
+        font-size: 32px;
+    }
+    .firstSectionText {
+        font-size: 14px;
+        padding: 0 30px;
+    }
+    .Hero4Title {
+        font-size: 24px;
+        padding: 0 30px;
+    }
+    .Hero4 a {
+        font-size: 12px;
+    }
+    .Hero2Title {
+        font-size: 32px;
+    }
+    .Hero2Text {
+        font-size: 14px;
+        padding: 0 30px;
+    }
+    .card {
+        flex-direction: column;
+        text-align: left;
+    }
+    .cardImg, .cardTexts {
+        width: 100%;
+        padding: 0 30px;
+    }
+    .cardTexts {
+        padding-top: 0;
+        order: 1;
+    }
+    .cardImg {
+        margin-bottom: 15px;
+    }
+    .cardTitle {
+        text-align: center;
+    }
+    .imgRight {
+        margin-left: 0;
+    }
+    .Hero5 {
+        padding-top: 15px;
+    }
+    .Hero5 h1 {
+        font-size: 32px;
+        padding: 0 70px;
+    }
+    .teamCards {
+        flex-direction: column;
+        padding: 0;
+    }
+    .teamText {
+        padding: 0 70px;
+    }
+    .FooterContainer {
+        flex-direction: column;
+    }
+    .FooterContainer .FooterLinksWrapper {
+        margin-left: 0;
+        flex-direction: column;
+    }
+  }
