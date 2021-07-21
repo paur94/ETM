@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <nav className="Nav">
       <a className="NavLink headerLogo" href="/" to="/">
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" /><span className="logo_text">Excise Tax Manager</span>
       </a>
 
       <SideBar right pageWrapId={"page-wrap"} outerContainerId={"App"} />

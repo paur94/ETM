@@ -34,6 +34,9 @@
   .Nav .headerLogo {
     margin-left: 0;
   }
+  .logo_text {
+    display: none;
+  }
 }
 .NavLink a {
   text-decoration: none !important;
