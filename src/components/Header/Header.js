@@ -17,7 +17,7 @@ const Header = () => {
       <div className="FlexMenu">
         <ul className="NavMenu">
             <li className="NavLink"><a href="/">HOME</a></li>
-            <li className="NavLink"><a href="/templates">TEMPLATES</a></li>
+            <li className="NavLink"><a href="/features">FEATURES</a></li>
             <li className="NavLink"><a href="/pricing">PRICING</a></li>
             <li className="NavLink"><a href="/login">LOGIN</a></li>
         </ul>
