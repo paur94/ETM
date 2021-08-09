@@ -15,10 +15,10 @@ export default function Footer() {
             <h2 className="ft-title">PRODUCT</h2>
             <ul>
               <li>
-                <a href="#">Pricing</a>
+                <a href="/pricing">Pricing</a>
               </li>
               <li>
-                <a href="#">Templates</a>
+                <a href="/features">Features</a>
               </li>
               <li>
                 <a href="#">Login</a>
